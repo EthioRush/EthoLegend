@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9fbfc;
+    color: #ededed;
+}
+
+.header {
+    position: fixed;
+    top: 20;
+    left: 0;
+    width: 100%;
+    padding: 30px 10%;
+    background: rgb(88, 156, 185);
+    display: flex;
+    justify-content: space-around;
+    align-items: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 300px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 35px;
+    transition: .1s;
+
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+.home {
+    background: url(slider-2-1.jpg) no-repeat;
+    display: flex;
+    align-items: center;
+    height: 150vh;
+    padding: 0 10%;
+}
+
+.contact-section {
+    padding: 60px;
+    background-color: #f9f9f9;
+
+
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
